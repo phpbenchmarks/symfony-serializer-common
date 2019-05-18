@@ -1,0 +1,14 @@
+{
+    "name": "phpbenchmarks/symfony-serializer-common",
+    "license": "proprietary",
+    "require": {
+        "php": "^5.4||^7.0",
+        "symfony/serializer": "^2.1||^3.0||^4.0",
+        "phpbenchmarks/benchmark-json-serialization-small-overload": "1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpBenchmarks\\SymfonySerializerCommon\\": "src/"
+        }
+    }
+}
